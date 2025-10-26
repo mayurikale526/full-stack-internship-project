@@ -21,7 +21,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('back.jpg'),linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: url('https://assets.nicepagecdn.com/11a8ddce/6444316/images/Untitled-3.jpg'),linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -52,6 +52,12 @@
 
 .nav-link {
   color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.nav-link-active {
+  color: orange;
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
@@ -271,7 +277,7 @@
 
 .help-banner{
   height: 400px;
-  background-image: url('phone.jpg');
+  background-image: url('https://assets.nicepagecdn.com/11a8ddce/6444316/images/95812.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 100%; 
@@ -325,7 +331,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.footer-menu ul li {
+.footer-menu .link {
   margin-bottom: 10px;
 }
 
